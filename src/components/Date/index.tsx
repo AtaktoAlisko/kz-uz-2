@@ -29,7 +29,7 @@ function DateComponent() {
   }
 
   return (
-    <div className={`${styles.container} mx-6 rounded-xl mt-4`}>
+    <div className={`${styles.container} mx-5 rounded-xl mt-4`}>
       <div className={styles.timeRow}>
         <div className={styles.timeItem}>
           <span className={styles.time}>{remainingTime.days}</span>

@@ -30,8 +30,8 @@ export default function Home() {
     <div className="flex flex-col text-center ">
       <Main />
 
-      <div data-aos="zoom-in">
-        <h2 className="text-4xl color">Құрметті қонақтар</h2>
+      <div data-aos="zoom-in" className="mt-[50px]">
+        <h2 className=" text-4xl color">Құрметті қонақтар</h2>
         <p className="text-2xl mt-8">Сіздерді қызымыз</p>
         <h2 className="text-5xl mt-8 color mb-3">Мейірімнің</h2>
 
