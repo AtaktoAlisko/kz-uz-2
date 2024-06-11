@@ -16,7 +16,7 @@ function DateComponent() {
 
   function calculateRemainingTime() {
     // Correct the date to August 2, 2024
-    const targetDate = new Date(2024, 7, 2);
+    const targetDate = new Date(2024, 7, 9);
     const currentTime = new Date();
     const difference = targetDate.getTime() - currentTime.getTime();
 

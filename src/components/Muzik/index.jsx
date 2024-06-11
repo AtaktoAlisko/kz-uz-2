@@ -1,11 +1,8 @@
-// components/Musik.js
-"use client";
-
+// Musik.js
 import styles from "./Musik.module.scss";
-import proigr from "../../../public/images/proigriv.png";
 import Image from "next/image";
 
-export default function Musik() {
+export default function Musik({ isPlaying, play }) {
   return (
     <button
       className={`${styles.muzik} ${isPlaying ? "animate-spin" : ""}`}
@@ -15,7 +12,7 @@ export default function Musik() {
         className="ml-20"
         height={50}
         width={100}
-        src={proigr}
+        src="/images/proigriv.png"
         alt="musik"
       />
     </button>

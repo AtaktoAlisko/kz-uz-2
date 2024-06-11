@@ -3,6 +3,7 @@
   max-width: 600px;
   margin: 0 auto;
   overflow: hidden; /* Prevents content from causing horizontal scroll */
+
 }
 .timeline::after {
   content: '';
@@ -73,21 +74,22 @@
   background-color: white;
   position: relative;
   border-radius: 6px;
+  border-color: gold;
 }
 .content img {
   width: 100%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 10px;
+  border: medium solid gold;
 }
 .content h2 {
-  margin: 0 0 10px;
+  margin: 0 0 15px;
 }
 .content p {
   margin: 0;
 }
 .title {
   text-align: center;
-  font-size: 24px;
   margin-bottom: 30px;
   margin-top: 30px;
 }

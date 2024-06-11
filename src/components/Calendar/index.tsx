@@ -7,7 +7,7 @@ import right from "../../../public/images/right.png";
 export default function Calendar() {
     const [currentDate, setCurrentDate] = useState<Date>(new Date(2024, 7, 1)); // Set the correct month for August
 
-    const weddingDate = new Date(2024, 7, 2); // Correct month for August
+    const weddingDate = new Date(2024, 7, 9); // Correct month for August
 
     const daysOfWeek = ["Дс", "Сс", "Ср", "Бс", "Жм", "Сн", "Жк"];
     const months = [
@@ -98,24 +98,24 @@ export default function Calendar() {
                     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
                     border-radius: 15px;
                     overflow: hidden;
-                    background-color: #f0f0f0;
+                    background-color: #f5f5f5; /* light gray background */
                 }
                 .header {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-color: #dcdcdc;
+                    background-color: #fff8dc; /* cornsilk */
                     padding: 10px 20px; /* Reduced padding */
-                    border-bottom: 2px solid #c0c0c0;
+                    border-bottom: 2px solid #b8860b; /* dark goldenrod */
                 }
                 .header h2 {
                     margin: 0 15px; /* Reduced margin */
                     font-size: 1.2rem; /* Reduced font size */
-                    color: #333;
+                    color: #b8860b; /* dark goldenrod */
                 }
                 .header button {
                     margin: 0 5px; /* Reduced margin */
-                    background-color: #e0e0e0;
+                    background-color: #daa520; /* goldenrod */
                     border: none;
                     padding: 5px; /* Reduced padding */
                     border-radius: 50%;
@@ -123,7 +123,7 @@ export default function Calendar() {
                     cursor: pointer;
                 }
                 .header button:hover {
-                    background-color: #dcdcdc;
+                    background-color: #ffc107; /* gold */
                 }
                 .days-of-week,
                 .days {
@@ -138,25 +138,26 @@ export default function Calendar() {
                     justify-content: center;
                     align-items: center;
                     padding: 10px; /* Reduced padding */
-                    background-color: #f5f5f5; /* Set all backgrounds to light gray */
+                    background-color: #f8f8f8; /* white smoke */
                     border-radius: 5px;
                     margin: 1px; /* Reduced margin */
+                    font-weight: bold; /* Added font-weight */
                 }
                 .day-name {
-                    background-color: #e0e0e0;
+                    background-color: #fff8dc; /* cornsilk */
                     font-weight: bold;
-                    color: #555;
+                    color: #8b4513; /* saddle brown */
                 }
                 .day {
                     position: relative;
                     transition: background-color 0.3s ease;
                 }
                 .day:hover {
-                    background-color: #dcdcdc;
+                    background-color: #ffd700; /* gold */
                 }
                 .day.wedding-day {
-                    background-color: #c0c0c0;
-                    color: #ff6347;
+                    background-color: #ff8c00; /* dark orange */
+                    color: #ffffff; /* white */
                     font-weight: bold;
                     animation: pulse 2s infinite;
                 }
