@@ -32,7 +32,7 @@ export default function ToiBagdarlamasi() {
       <div className={`${styles.container} ${styles.right}`}>
         <div className={styles.content}>
           <Image
-            src={bet}
+            src={fur}
             data-aos="fade-left"
             alt="Беташар"
             width={300}
@@ -40,7 +40,7 @@ export default function ToiBagdarlamasi() {
           />
           <h2 data-aos="fade-left" className="mt-2 text-center ">
             17:20 <br />
-            БЕТАШАР
+            ФУРШЕТ
           </h2>
         </div>
       </div>
@@ -48,14 +48,14 @@ export default function ToiBagdarlamasi() {
       <div className={`${styles.container} ${styles.left}`}>
       <div className={styles.content}>
           <Image
-            src={fur}
+            src={konak}
             data-aos="fade-right"
             alt="Фуршет, фотосессия"
             width={300}
             height={200}
           />
           <h2 data-aos="fade-right" className="flex text-center ">
-            17:50 <br /> ФУРШЕТ 
+            17:50 <br /> ҚҰДАЛАРДЫ ҚАРСЫ АЛУ
           </h2>
         </div>
       </div>
@@ -63,32 +63,19 @@ export default function ToiBagdarlamasi() {
       <div className={`${styles.container} ${styles.right}`}>
         <div className={styles.content}>
           <Image
-            src={konak}
+            src={kel}
             data-aos="fade-left"
             alt="Кұдаларды қарсы алу"
             width={300}
             height={200}
           />
           <h2 data-aos="fade-left" className="flex text-center ">
-            18:00 ҚҰДАЛАРДЫ ҚАРСЫ АЛУ
+            18:00 ТОЙДЫҢ АШЫЛУЫ
           </h2>
         </div>
       </div>
 
-      <div className={`${styles.container} ${styles.left}`}>
-        <div className={styles.content}>
-          <Image
-            src={kel}
-            data-aos="fade-right"
-            alt="Фуршет, фотосессия"
-            width={300}
-            height={200}
-          />
-          <h2 data-aos="fade-right" className="flex text-center ">
-            18:20 <br /> ТОЙДЫҢ АШЫЛУЫ
-          </h2>
-        </div>
-      </div>
+     
     </div>
   );
 }
