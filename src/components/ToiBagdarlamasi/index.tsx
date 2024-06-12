@@ -24,7 +24,7 @@ export default function ToiBagdarlamasi() {
             height={200}
           />
           <h2 data-aos="fade-right" className="flex text-center ">
-            19:00 <br /> ҚОНАҚТАР ЖИНАЛУЫ
+            17:00 <br /> ҚОНАҚТАР ЖИНАЛУЫ
           </h2>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default function ToiBagdarlamasi() {
             height={200}
           />
           <h2 data-aos="fade-left" className="mt-2 text-center ">
-            17:00 <br />
+            17:20 <br />
             БЕТАШАР
           </h2>
         </div>
@@ -55,7 +55,7 @@ export default function ToiBagdarlamasi() {
             height={200}
           />
           <h2 data-aos="fade-right" className="flex text-center ">
-            19:00 <br /> ФУРШЕТ 
+            17:50 <br /> ФУРШЕТ 
           </h2>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function ToiBagdarlamasi() {
             height={200}
           />
           <h2 data-aos="fade-left" className="flex text-center ">
-            18:30 ҚҰДАЛАРДЫ ҚАРСЫ АЛУ
+            18:00 ҚҰДАЛАРДЫ ҚАРСЫ АЛУ
           </h2>
         </div>
       </div>
@@ -85,7 +85,7 @@ export default function ToiBagdarlamasi() {
             height={200}
           />
           <h2 data-aos="fade-right" className="flex text-center ">
-            19:00 <br /> ТОЙДЫҢ АШЫЛУЫ
+            18:20 <br /> ТОЙДЫҢ АШЫЛУЫ
           </h2>
         </div>
       </div>

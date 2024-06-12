@@ -65,4 +65,3 @@ export default function Main() {
 }
 
 // CSS in Main.module.scss
-
