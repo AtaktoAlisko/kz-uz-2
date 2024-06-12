@@ -55,7 +55,7 @@ export default function ToiBagdarlamasi() {
             height={200}
           />
           <h2 data-aos="fade-right" className="flex text-center ">
-            17:50 <br /> ҚҰДАЛАРДЫ ҚАРСЫ АЛУ
+            17:50 <br/> ҚҰДАЛАРДЫ ҚАРСЫ <br/>АЛУ
           </h2>
         </div>
       </div>
