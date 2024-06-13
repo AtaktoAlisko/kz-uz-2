@@ -73,27 +73,6 @@ export default function Home() {
         <p>Мейрамханасы</p>
       </div>
 
-      <div className="flex justify-center gap-10">
-        <a href="https://2gis.kz/kyzylorda/firm/70000001082742211">
-          <Image
-            className="mt-5 mb-10"
-            height={50}
-            width={50}
-            src={insta}
-            alt="Instagram"
-          />
-        </a>
-        <a href="https://2gis.kz/kyzylorda/firm/70000001082742211">
-          <Image
-            className="mt-5 mb-10 gis"
-            height={50}
-            width={50}
-            src={gis}
-            alt="GIS"
-          />
-        </a>
-      </div>
-
       <ToiBagdarlamasi />
 
       <h2 className="mt-10 mb-5 text-5xl color ">Той хештегі:</h2>
