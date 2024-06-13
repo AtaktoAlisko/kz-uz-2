@@ -15,7 +15,7 @@ export default function ToiBagdarlamasi() {
       <div className={`${styles.title} text-3xl color `}>ТОЙ БАҒДАРЛАМАСЫ</div>
 
       <div className={`${styles.container} ${styles.left}`}>
-      <div className={styles.content}>
+        <div className={styles.content}>
           <Image
             src={konaktar}
             data-aos="fade-right"
@@ -46,7 +46,7 @@ export default function ToiBagdarlamasi() {
       </div>
 
       <div className={`${styles.container} ${styles.left}`}>
-      <div className={styles.content}>
+        <div className={styles.content}>
           <Image
             src={konak}
             data-aos="fade-right"
@@ -54,8 +54,8 @@ export default function ToiBagdarlamasi() {
             width={300}
             height={200}
           />
-          <h2 data-aos="fade-right" className="flex text-center ">
-            17:50 <br/> ҚҰДАЛАРДЫ ҚАРСЫ <br/>АЛУ
+          <h2 data-aos="fade-right" className="flex text-center   ">
+            17:50 <br /> ҚҰДАЛАРДЫ <br /> ҚАРСЫ <br /> АЛУ
           </h2>
         </div>
       </div>
@@ -74,8 +74,6 @@ export default function ToiBagdarlamasi() {
           </h2>
         </div>
       </div>
-
-     
     </div>
   );
 }
