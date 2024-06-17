@@ -45,7 +45,7 @@ export default function Home() {
       <div data-aos="fade-right" className="mt-[-150px] mb-[50px] ">
         <h2 className="text-4xl color mb-5">Той салтанаты:</h2>
         <p className="text-3xl mb-3">9 тамыз 2024 жыл</p>
-        <p className="text-3xl">Сағат 17:00 басталады</p>
+        <p className="text-3xl">Сағат 16:00 басталады</p>
       </div>
       <Calendar />
       <Image className="mt-[-140px]" src={line} alt="line" />
